@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class ValueReference {
+class ValueReferenceExample {
     public void callByValue(int num) {
         num += 10;
         System.out.println("Inside callByValue method, num = " + num);
@@ -10,7 +10,7 @@ class ValueReference {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ValueReference example = new ValueReference();
+        ValueReferenceExample example = new ValueReferenceExample();
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
         System.out.println("Before callByValue method, number = " + number);

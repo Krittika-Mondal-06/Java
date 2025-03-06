@@ -1,4 +1,4 @@
-public class ExceptionHandled {
+class ExceptionHandled {
     public static void main(String[] args) {
         try {
             int a = 10, b = 0;
